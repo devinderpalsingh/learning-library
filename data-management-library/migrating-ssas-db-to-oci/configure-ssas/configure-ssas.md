@@ -26,7 +26,7 @@ This lab assumes you have:
 
     File Name: adventure-works-multidimensional-model-full-database-backup.zip
 
-  ![](./images/lab2-image1.png " ")
+  ![](./images/sample-db.png " ")
 
 
 You may now **proceed to the next lab**.

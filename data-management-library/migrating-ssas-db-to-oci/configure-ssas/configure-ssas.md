@@ -31,9 +31,6 @@ This lab assumes you have:
 
 You may now **proceed to the next lab**.
 
-## Learn More
-- You can find more information about OCI Security Cloud Advisor [here](https://docs.oracle.com/en-us/iaas/Content/SecurityAdvisor/Concepts/securityadvisoroverview.htm)
-
 
 ## Acknowledgements
 * **Author** - Devinder Pal Singh, Senior Cloud Engineer, NA Cloud Engineering

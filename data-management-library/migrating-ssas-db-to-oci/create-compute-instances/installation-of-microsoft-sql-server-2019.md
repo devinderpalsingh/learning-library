@@ -5,7 +5,7 @@
 This lab walks you through the steps how to provision the Microsoft SQL Server 2019 from the Market Place Image in compute instance.
 
 
-Estimated Time:  1 hour
+Estimated Time:  15 Minutes
 
 
 ### Objectives

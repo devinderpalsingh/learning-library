@@ -1,5 +1,5 @@
 {
-  "workshoptitle": "Deploy Windows Server Failover Cluster and Setup the MS SQL Server AOAG in Compute Instance",
+  "workshoptitle": "Migrate Microsoft SQL Server Analysis Service (SSAS) Databases to OCI",
   "help": "livelabs-help-oci_us@oracle.com",
   "tutorials": [
     {

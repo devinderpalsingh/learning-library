@@ -42,9 +42,6 @@ This lab assumes you have:
   Note: It will take some time to restore the Database depending upon the backup size.
 
 
-## Learn More
-- You can find more information about Launching a Windows Instance [here](https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/launchinginstanceWindows.htm)
-
 
 ## Acknowledgements
 * **Author** - Devinder Pal Singh, Senior Cloud Engineer, NA Cloud Engineering

@@ -9,7 +9,7 @@ This reference architecture includes a compute instance and Object Storage on Or
 
   ![](./images/compute-ssas.png " ")
 
-Estimated Workshop Time: 2 Hour
+Estimated Workshop Time: 1 Hour 30 Mins
 
 
 

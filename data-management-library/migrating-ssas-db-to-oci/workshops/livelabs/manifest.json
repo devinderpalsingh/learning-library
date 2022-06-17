@@ -8,14 +8,14 @@
       "filename": "../../introduction/introduction.md"
     },
     {
-      "title": "Getting Started",
+      "title": "Get Started",
       "description": "Details about How to Register for Free Tier Account on OCI",
       "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/pre-register-free-tier-account.md"
     },
 
     {
       "title": "Lab 1: Provision the Compute Instance from Market Place Image for SQL Server 2019",
-      "description": "Step by step instruction on creating Microsoft Active Directory Domain controller",
+      "description": "Step by step instruction on creating Microsoft Active Directory Domain Controller",
       "filename": "../../create-compute-instances/installation-of-microsoft-sql-server-2019.md"
     },
     {

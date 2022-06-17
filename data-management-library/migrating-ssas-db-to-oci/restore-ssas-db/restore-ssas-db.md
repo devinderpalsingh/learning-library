@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This lab walks you through the steps how to create Windows bastion host and setup the Windows Active Directory Domain services in Compute instance. It involves creating the windows bastion host and Windows server in Compute instance and installing and configuring the Microsoft Active Directory Domain Services.
+This lab walks you through the steps of how to create a Windows bastion host and set up the Windows Active Directory Domain Services in Compute instance. It involves creating the windows bastion host and Windows server in Compute instance and installing and configuring the Microsoft Active Directory Domain Services.
 
 Estimated Time:  1 Hour
 
@@ -18,9 +18,9 @@ This lab assumes you have:
 - IAM policies to create resources in the compartment
 - Required Subnets are available in VCN
 
-##  Task 1: Copy the SSAS DB Backup to SSAS default Backup location.
+##  Task 1: Copy the SSAS DB Backup to the SSAS default Backup location.
 
-1. Copy the backup file which we downloaded in Lab2 : Task1 to below default location.
+1. Copy the backup file which we downloaded in Lab2: Task1 to the below default location.
 
     C:\Program Files\Microsoft SQL Server\MSAS15.MSSQLSERVER\OLAP\Backup
 
@@ -29,15 +29,15 @@ This lab assumes you have:
 
 1. Connect to SQL Server Management Studio as **Admin** and connect to SQL Server Analysis Services. To restore the SSAS database, right-click on the SSAS database in the Object Explorer window of SSMS, and select Restore.
 
-  ![](./images/mssql-mgmt-studio.png " ")
+  ![Microsoft SQL Server Management Studio - restore database](./images/mssql-mgmt-studio.png " ")
 
 2. Select the location of the Backup file and click OK
 
-  ![](./images/msql-backupfile.png " ")
+  ![Microsoft SQL Server Management Studio - restore database disk location](./images/msql-backupfile.png " ")
 
-3. Once the Analysis Service database is successfully restored, it looks like below:
+3. Once the Analysis Service database is successfully restored, it looks like the below:
 
-  ![](./images/mssql-db-restore.png " ")
+  ![Microsoft SQL Server Management Studio - restore database status](./images/mssql-db-restore.png " ")
 
   Note: It will take some time to restore the Database depending upon the backup size.
 

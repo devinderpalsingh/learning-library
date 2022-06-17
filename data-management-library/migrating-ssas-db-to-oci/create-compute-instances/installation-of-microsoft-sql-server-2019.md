@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This lab walks you through the steps how to provision the Microsoft SQL Server 2019 from the Market Place Image in compute instance.
+This lab walks you through the steps of how to provision the Microsoft SQL Server 2019 from the Market Place Image in compute instance.
 
 
 Estimated Time:  15 Minutes
@@ -10,7 +10,7 @@ Estimated Time:  15 Minutes
 
 ### Objectives
 In this lab, you will learn to :
-* Deploy the Microsoft SQL Server 2019 from marketplace image
+* Deploy the Microsoft SQL Server 2019 from the marketplace image
 * Add the Computer Instances to Active Directory Domain Controller
 
 ### Prerequisites  
@@ -24,37 +24,37 @@ This lab assumes you have:
 
 1. Open the navigation menu, click **Marketplace**, and then click **All Applications**
 
-  ![](./images/compute-instance.png " ")
+  ![OCI console marketplace](./images/compute-instance.png " ")
 
-2. Marketplace All Applications will be shown as below. Search for **SQL Server 2019** image and select the desired edition of SQL Server. We have Enterprise and Standard Edition are available.  Always On Basic Availability Groups provide a high availability solution for SQL Server from version 2016 and above on Standard Edition. A basic availability group supports a failover environment for a single database in Standard Edition.  
+2. Marketplace All Applications will be shown below. Search for **SQL Server 2019** image and select the desired edition of SQL Server. We have Enterprise and Standard Edition available.  
 
-  ![](./images/compute-instance-marketplace.png " ")
+  ![OCI console marketplace search sql server](./images/compute-instance-marketplace.png " ")
 
 
 3. Choose the compartment and click on **Launch Instance**, the screen will be taken to the launch compute instance.
 
-  ![](./images/compute-instance-compartment.png " ")
+  ![OCI console marketplace launch Instance](./images/compute-instance-compartment.png " ")
 
-### Note: Please note that Minimum of 744 hours will be charged for SQL Server Marketplace image.
+### Note: Please note that a minimum of 744 hours will be charged for the SQL Server Marketplace image.
 
-4. Choose the Instance name and compartment where the compute instance needs to create, select the desired Availability Domain.
+4. Choose the Instance name and compartment where the compute instance needs to create and select the desired Availability Domain.
 
-  ![](./images/compute-instance-create.png " ")
+  ![OCI compute instance create](./images/compute-instance-create.png " ")
 
 5. Click on **Change shape** to select the shape of the instance.
 
-  ![](./images/compute-instance-shape.png " ")
+  ![OCI compute instance shape](./images/compute-instance-shape.png " ")
 
-6. Choose the compartment where the compute instance should resides, and then choose the private subnet as shown in below image.
+6. Choose the compartment where the compute instance should reside, and then choose the private subnet as shown below the image.
 
-  ![](./images/compute-instance-compart.png " ")
+  ![OCI compute instance VCN](./images/compute-instance-compart.png " ")
 
-7. Choose the default values an click on **Create** instance
-  ![](./images/compute-instance-default.png " ")
+7. Choose the default values and click on **Create** instance
+  ![OCI compute instance boot volume](./images/compute-instance-default.png " ")
 
-8. Once the compute instance provisioning completed, we could able to see the instance state is running.
+8. Once the compute instance provisioning is completed, we could able to see the instance state is running.
 
-    ![](./images/compute-instance-running.png " ")
+    ![OCI compute instance status](./images/compute-instance-running.png " ")
 
   You may now **proceed to the next lab.**
 ## Learn More

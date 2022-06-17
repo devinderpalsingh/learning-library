@@ -2,12 +2,14 @@
 
 ## About this Workshop
 
-This hands-on workshop provides users with step-by-step instructions how to migrate SSAS DB's from On-Premise to OCI (Compute Instance).
+This hands-on workshop provides users with step-by-step instructions on how to migrate SSAS DBs from On-Premise to OCI (Compute Instance).
 
 **Architecture:**
 This reference architecture includes a compute instance and Object Storage on Oracle Cloud Infrastructure.
 
-  ![](./images/compute-ssas.png " ")
+  ![OCI reference architecture for compute instance ](./images/compute-ssas.png " ")
+
+This image shows an Oracle Cloud Infrastructure region that provides object storage (for backup) for the region. The region includes a single availability domain with one fault domain. The availability domain includes block storage (for volumes) for the domain. It also includes a virtual cloud network (VCN) with one regional subnet and a service gateway. The VCN provides routing tables for the subnet and the subnet provides its security list access. The compute instance has SQL server Analysis services that reside in the fault domain.
 
 Estimated Workshop Time: 1 Hour 30 Mins
 
@@ -31,8 +33,6 @@ In this workshop, you will learn how to:
 - You can find more information about Launching a Windows Instance [here](https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/launchinginstanceWindows.htm)
 
 
-## Technical support
-For any technical issues related to OCI and Compute instance, please contact Oracle support through OCI cloud console support or help button. SMEs will monitor the SR and respond to any questions or issues.
 
 ## Acknowledgements
 * **Author** - Devinder Pal Singh, Senior Cloud Engineer, NA Cloud Engineering

@@ -1,5 +1,5 @@
 {
-  "workshoptitle": "Get started with Oracle Cloud Infrastructure Security Advisor",
+  "workshoptitle": "Migrate Microsoft SQL Server Analysis Service (SSAS) Databases to OCI",
   "help": "livelabs-help-oci_us@oracle.com",
   "tutorials": [
     {
@@ -14,19 +14,19 @@
     },
 
     {
-      "title": "Lab 1: Create a Secure Bucket",
-      "description": "Step by step instruction on creating a Secure Bucket",
-      "filename": "../../provision-secure-bucket/create-bucket.md"
+      "title": "Lab 1: Provision the Compute Instance from Market Place Image for SQL Server 2019",
+      "description": "Step by step instruction on creating Microsoft Active Directory Domain Controller",
+      "filename": "../../create-compute-instances/installation-of-microsoft-sql-server-2019.md"
     },
     {
-      "title": "Lab 2: Create a Secure Block Volume",
-      "description": "Step by step instruction on creating a Secure Block Volume",
-      "filename": "../../provision-block-volume/create-block-volume.md"
+      "title": "Lab 2: Configure the SQL Server Analysis Services",
+      "description": "Step by step instruction on creating a 2 node windows Server Failver Cluster",
+      "filename": "../../configure-ssas/configure-ssas.md"
     },
     {
-      "title": "Lab 3: Create a Secure Virtual Machine Instance",
-      "description": "Step by step instruction on creating a Secure Virtual Machine Instance",
-      "filename": "../../provision-virtual-machine/create-compute-instance.md"
+      "title": "Lab 3: Restore the analysis Databases from backups (Cubes, Dimensions etc)",
+      "description": "Step by step instruction on how to install SQL Server from OCI MarketPlace image",
+      "filename": "../../restore-ssas-db/restore-ssas-db.md"
     },
     {
       "title": "Need Help?",

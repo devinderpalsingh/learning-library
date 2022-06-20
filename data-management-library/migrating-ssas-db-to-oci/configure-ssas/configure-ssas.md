@@ -20,13 +20,11 @@ This lab assumes you have:
 
 ##  Task 1: Download the sample database backup for Analysis Service.
 
-1. RDP to Compute Instance, to perform the **Restore**, we are downloading the **SSAS Sample DB Backup** from the below-provided link.
+1. RDP to Compute Instance, to perform the **Restore**, download the **SSAS Sample DB Backup** using [link.](https://github.com/microsoft/sql-server-samples/releases/download/adventureworks-analysis-services/adventure-works-multidimensional-model-full-database-backup.zip)
 
-    https://github.com/microsoft/sql-server-samples/releases/download/adventureworks-analysis-services/adventure-works-multidimensional-model-full-database-backup.zip
+    **File Name: adventure-works-multidimensional-model-full-database-backup.zip**
 
-    File Name: adventure-works-multidimensional-model-full-database-backup.zip
-
-  ![adventure-works-multidimensional-model-full-database-backup](./images/sample-db.png " ")
+  ![adventure-works-multidimensional-model-full-database-backup](./images/sample-db.png "adventure-works-multidimensional-model-full-database-backup")
 
 
 You may now **proceed to the next lab**.

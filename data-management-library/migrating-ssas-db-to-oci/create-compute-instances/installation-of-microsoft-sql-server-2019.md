@@ -24,37 +24,37 @@ This lab assumes you have:
 
 1. Open the navigation menu, click **Marketplace**, and then click **All Applications**
 
-  ![OCI console marketplace](./images/compute-instance.png " ")
+  ![OCI console marketplace](./images/compute-instance.png "OCI console marketplace")
 
 2. Marketplace All Applications will be shown below. Search for **SQL Server 2019** image and select the desired edition of SQL Server. We have Enterprise and Standard Edition available.  
 
-  ![OCI console marketplace search sql server](./images/compute-instance-marketplace.png " ")
+  ![OCI console marketplace search sql server](./images/compute-instance-marketplace.png "OCI console marketplace search sql server")
 
 
 3. Choose the compartment and click on **Launch Instance**, the screen will be taken to the launch compute instance.
 
-  ![OCI console marketplace launch Instance](./images/compute-instance-compartment.png " ")
+  ![OCI Console Marketplace Launch Instance](./images/compute-instance-compartment.png "OCI console marketplace launch Instance")
 
-### Note: Please note that a minimum of 744 hours will be charged for the SQL Server Marketplace image.
+> **Note:** A minimum of 744 hours will be charged for the SQL Server Marketplace image.
 
 4. Choose the Instance name and compartment where the compute instance needs to create and select the desired Availability Domain.
 
-  ![OCI compute instance create](./images/compute-instance-create.png " ")
+  ![OCI compute instance create](./images/compute-instance-create.png "OCI compute instance create")
 
 5. Click on **Change shape** to select the shape of the instance.
 
-  ![OCI compute instance shape](./images/compute-instance-shape.png " ")
+  ![OCI compute instance shape](./images/compute-instance-shape.png "OCI compute instance shape")
 
 6. Choose the compartment where the compute instance should reside, and then choose the private subnet as shown below the image.
 
-  ![OCI compute instance VCN](./images/compute-instance-compart.png " ")
+  ![OCI compute instance VCN](./images/compute-instance-compart.png "OCI compute instance VCN")
 
 7. Choose the default values and click on **Create** instance
-  ![OCI compute instance boot volume](./images/compute-instance-default.png " ")
+  ![OCI compute instance boot volume](./images/compute-instance-default.png "OCI compute instance boot volume")
 
 8. Once the compute instance provisioning is completed, we could able to see the instance state is running.
 
-    ![OCI compute instance status](./images/compute-instance-running.png " ")
+    ![OCI compute instance status](./images/compute-instance-running.png "OCI compute instance status")
 
   You may now **proceed to the next lab.**
 ## Learn More

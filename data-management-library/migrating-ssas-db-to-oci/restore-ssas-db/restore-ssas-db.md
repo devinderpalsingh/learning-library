@@ -22,26 +22,26 @@ This lab assumes you have:
 
 1. Copy the backup file which we downloaded in Lab2: Task1 to the below default location.
 
-    C:\Program Files\Microsoft SQL Server\MSAS15.MSSQLSERVER\OLAP\Backup
+    **C:\Program Files\Microsoft SQL Server\MSAS15.MSSQLSERVER\OLAP\Backup**
 
-    Note: This is the default location where we can keep the backups.
+    > **Note:**  This is the default location where we can keep the backups.
 ## Task 2:  Restore the SSAS Database from SQL Server Management Studio.
 
 1. Connect to SQL Server Management Studio as **Admin** and connect to SQL Server Analysis Services. To restore the SSAS database, right-click on the SSAS database in the Object Explorer window of SSMS, and select Restore.
 
-  ![Microsoft SQL Server Management Studio - restore database](./images/mssql-mgmt-studio.png " ")
+  ![Microsoft SQL Server Management Studio - restore database](./images/mssql-mgmt-studio.png "Microsoft SQL Server Management Studio - restore database")
 
 2. Select the location of the Backup file and click OK
 
-  ![Microsoft SQL Server Management Studio - restore database disk location](./images/msql-backupfile.png " ")
+  ![Microsoft SQL Server Management Studio - restore database disk location](./images/msql-backupfile.png "Microsoft SQL Server Management Studio - restore database disk location")
 
 3. Once the Analysis Service database is successfully restored, it looks like the below:
 
-  ![Microsoft SQL Server Management Studio - restore database status](./images/mssql-db-restore.png " ")
+  ![Microsoft SQL Server Management Studio - restore database status](./images/mssql-db-restore.png "Microsoft SQL Server Management Studio - restore database status")
 
-  Note: It will take some time to restore the Database depending upon the backup size.
+  > **Note:** It will take some time to restore the Database depending upon the backup size.
 
-
+Congratulations !!! You Have Completed Successfully The Workshop.
 
 ## Acknowledgements
 * **Author** - Devinder Pal Singh, Senior Cloud Engineer, NA Cloud Engineering

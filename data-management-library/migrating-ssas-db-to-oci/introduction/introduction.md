@@ -7,7 +7,7 @@ This hands-on workshop provides users with step-by-step instructions on how to m
 **Architecture:**
 This reference architecture includes a compute instance and Object Storage on Oracle Cloud Infrastructure.
 
-  ![OCI reference architecture for compute instance ](./images/compute-ssas.png " ")
+  ![OCI reference architecture for compute instance](./images/compute-ssas.png "OCI reference architecture for compute instance")
 
 This image shows an Oracle Cloud Infrastructure region that provides object storage (for backup) for the region. The region includes a single availability domain with one fault domain. The availability domain includes block storage (for volumes) for the domain. It also includes a virtual cloud network (VCN) with one regional subnet and a service gateway. The VCN provides routing tables for the subnet and the subnet provides its security list access. The compute instance has SQL Server Analysis Services that reside in the fault domain.
 

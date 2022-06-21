@@ -22,7 +22,7 @@ This lab assumes you have:
 
 ##  Task 1: Provision the SQL Server 2019 from Market Place for Node1
 
-1. Open the navigation menu, click **Marketplace**, and then click **All Applications**
+1. Open the navigation menu, click **Marketplace**, and then click **All Applications**.
 
   ![OCI console marketplace](./images/compute-instance.png "OCI console marketplace")
 
@@ -49,7 +49,7 @@ This lab assumes you have:
 
   ![OCI compute instance VCN](./images/compute-instance-compart.png "OCI compute instance VCN")
 
-7. Choose the default values and click on **Create** instance
+7. Choose the default values and click on **Create** instance.
   ![OCI compute instance boot volume](./images/compute-instance-default.png "OCI compute instance boot volume")
 
 8. Once the compute instance provisioning is completed, we could able to see the instance state is running.

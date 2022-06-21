@@ -31,11 +31,11 @@ This lab assumes you have:
 
   ![Microsoft SQL Server Management Studio - restore database](./images/mssql-mgmt-studio.png "Microsoft SQL Server Management Studio - restore database")
 
-2. Select the location of the Backup file and click OK
+2. Select the location of the Backup file and click OK.
 
   ![Microsoft SQL Server Management Studio - restore database disk location](./images/msql-backupfile.png "Microsoft SQL Server Management Studio - restore database disk location")
 
-3. Once the SQL Server Analysis Service database is successfully restored, it looks like the below:
+3. Once the SQL Server Analysis Service database is successfully restored, it looks like the below.
 
   ![Microsoft SQL Server Management Studio - restore database status](./images/mssql-db-restore.png "Microsoft SQL Server Management Studio - restore database status")
 

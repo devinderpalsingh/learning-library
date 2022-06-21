@@ -5,7 +5,7 @@ This page is designed to help you solve some common problems which users may fac
 
 If you still find yourself stuck or want to report an issue with the workshop, click the question mark icon in the upper left corner to contact the LiveLabs team directly via email.  
 
-![](images/help-button2.png)
+![Getting Started with Oracle Big Data Service](images/help-button2.png "Getting Started with Oracle Big Data Service")
 
 For more about getting support using our email, click [here](#HowToFormatYourSupportEmailRequest).
 
@@ -16,11 +16,11 @@ When you are finished, please don't forget to rate this workshop! We rely on thi
 
 2. Click on the **Brown Button** to re-access the workshop  
 
-    ![](images/workshop-homepage-2.png " ")
+    ![Brown Button](images/workshop-homepage-2.png "Brown Button")
 
 3. Click **Rate this workshop**
 
-    ![](images/rate-this-workshop.png " ")
+    ![Rate this workshop](images/rate-this-workshop.png "Rate this workshop")
 
 If you still have an active reservation, you can rate by going to **My Reservations** -> **Launch Workshop**.
 

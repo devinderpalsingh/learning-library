@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This lab walks you through the steps of how to create a Windows bastion host and set up the Windows Active Directory Domain Services in Compute instance. It involves creating the windows bastion host and Windows server in Compute instance and installing and configuring the Microsoft Active Directory Domain Services.
+This lab walks you through how to create a Windows bastion host and set up the Active Directory Domain Services in Compute instance. It involves provisioning the windows bastion host and Windows server in Compute instance and installing and configuring the Microsoft Active Directory Domain Services.
 
 Estimated Time:  1 Hour
 
@@ -20,7 +20,7 @@ This lab assumes you have:
 
 ##  Task 1: Copy the SSAS DB Backup to the SSAS default Backup location.
 
-1. Copy the backup file which we downloaded in Lab2: Task1 to the below default location.
+1. Copy the backup file you downloaded in Lab2: Task1 to the default location below.
 
     **C:\Program Files\Microsoft SQL Server\MSAS15.MSSQLSERVER\OLAP\Backup**
 
@@ -35,7 +35,7 @@ This lab assumes you have:
 
   ![Microsoft SQL Server Management Studio - restore database disk location](./images/msql-backupfile.png "Microsoft SQL Server Management Studio - restore database disk location")
 
-3. Once the Analysis Service database is successfully restored, it looks like the below:
+3. Once the SQL Server Analysis Service database is successfully restored, it looks like the below:
 
   ![Microsoft SQL Server Management Studio - restore database status](./images/mssql-db-restore.png "Microsoft SQL Server Management Studio - restore database status")
 

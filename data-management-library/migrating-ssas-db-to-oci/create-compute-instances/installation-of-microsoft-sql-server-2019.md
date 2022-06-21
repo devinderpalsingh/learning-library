@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This lab walks you through the steps of how to provision the Microsoft SQL Server 2019 from the Market Place Image in compute instance.
+This lab walks you through how to provision the Microsoft SQL Server 2019 from the Market Place Image in compute instance.
 
 
 Estimated Time:  15 Minutes
@@ -26,12 +26,12 @@ This lab assumes you have:
 
   ![OCI console marketplace](./images/compute-instance.png "OCI console marketplace")
 
-2. Marketplace All Applications will be shown below. Search for **SQL Server 2019** image and select the desired edition of SQL Server. We have Enterprise and Standard Edition available.  
+2. Marketplace will show all applications. Search for **SQL Server 2019** image and select the desired edition of SQL Server. We have Enterprise and Standard Edition available.  
 
-  ![OCI console marketplace search sql server](./images/compute-instance-marketplace.png "OCI console marketplace search sql server")
+  ![OCI console marketplace search SQL server](./images/compute-instance-marketplace.png "OCI console marketplace search SQL Server")
 
 
-3. Choose the compartment and click on **Launch Instance**, the screen will be taken to the launch compute instance.
+3. Choose the compartment and click on **Launch Instance**. The screen will be taken to the launch compute instance.
 
   ![OCI Console Marketplace Launch Instance](./images/compute-instance-compartment.png "OCI console marketplace launch Instance")
 
@@ -41,7 +41,7 @@ This lab assumes you have:
 
   ![OCI compute instance create](./images/compute-instance-create.png "OCI compute instance create")
 
-5. Click on **Change shape** to select the shape of the instance.
+5. Click on **Change Shape** to select the shape of the instance.
 
   ![OCI compute instance shape](./images/compute-instance-shape.png "OCI compute instance shape")
 

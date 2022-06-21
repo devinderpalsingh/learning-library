@@ -2,14 +2,14 @@
 
 ## About this Workshop
 
-This hands-on workshop provides users with step-by-step instructions on how to migrate SSAS DBs from On-Premise to OCI (Compute Instance).
+This hands-on workshop provides users with step-by-step instructions on migrating SSAS DBs from On-Premise to OCI (Compute Instance).
 
 **Architecture:**
 This reference architecture includes a compute instance and Object Storage on Oracle Cloud Infrastructure.
 
-  ![OCI reference architecture for compute instance](./images/compute-ssas.png "OCI reference architecture for compute instance")
+  ![OCI reference architecture for Compute Instance](./images/compute-ssas.png "OCI reference architecture for Compute Instance")
 
-This image shows an Oracle Cloud Infrastructure region that provides object storage (for backup) for the region. The region includes a single availability domain with one fault domain. The availability domain includes block storage (for volumes) for the domain. It also includes a virtual cloud network (VCN) with one regional subnet and a service gateway. The VCN provides routing tables for the subnet and the subnet provides its security list access. The compute instance has SQL Server Analysis Services that reside in the fault domain.
+The Oracle Cloud Infrastructure region provides object storage (for backup) that includes a single availability domain with one fault domain. It also consists of a virtual cloud network (VCN) with one regional subnet and a service gateway. The VCN provides routing tables for the subnet, and the subnet provides its security list access. The compute instance has SQL Server Analysis Services in the fault domain.
 
 Estimated Time: 1 Hour 30 Mins
 
@@ -19,11 +19,11 @@ Estimated Time: 1 Hour 30 Mins
 In this workshop, you will learn how to:
 * Provisioning the Compute Instance from Market Place Image for SQL Server 2019
 * Configure the SQL Server Analysis Services
-* Restore the analysis Databases from backups (Cubes, Dimensions etc)
+* Restore the analysis Databases from backups (Cubes, Dimensions, etc.)
 
 
 ### Prerequisites
-* An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
+* An Oracle Free Tier, Always Free, Paid, or LiveLabs Cloud Account
 * Some understanding of cloud and security terms is helpful
 * Familiarity with Oracle Cloud Infrastructure (OCI) is helpful
 * Required Subnets: One Private subnet for hosting compute instance

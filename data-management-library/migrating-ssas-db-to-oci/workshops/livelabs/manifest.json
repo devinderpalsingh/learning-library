@@ -24,7 +24,7 @@
       "filename": "../../configure-ssas/configure-ssas.md"
     },
     {
-      "title": "Lab 3: Restore the analysis Databases from backups (Cubes, Dimensions etc)",
+      "title": "Lab 3: Restore the analysis Databases from backups (Cubes, Dimensions, etc.)",
       "description": "Step by step instruction on how to install SQL Server from OCI MarketPlace image",
       "filename": "../../restore-ssas-db/restore-ssas-db.md"
     },

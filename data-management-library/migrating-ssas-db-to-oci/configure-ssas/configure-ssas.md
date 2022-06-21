@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This lab walk you through the steps to configure the SQL Server Analysis Service (SSAS). Microsoft SQL Server Analysis Services (SSAS) are online analytical processing (OLAP) and data mining tool on Microsoft SQL Server.  SSAS is used as a tool by organizations to analyze and make sense of information possibly spread out across multiple databases.
+This lab walks you through configuring the SQL Server Analysis Service (SSAS). Microsoft SQL Server Analysis Services (SSAS) are online analytical processing (OLAP) and data mining tool on Microsoft SQL Server. SSAS is used as a tool by organizations to analyze and make sense of information possibly spread out across multiple databases.
 
 Estimated Time:  15 Minutes
 
@@ -20,7 +20,7 @@ This lab assumes you have:
 
 ##  Task 1: Download the sample database backup for Analysis Service.
 
-1. Login to the compute instance and download the **SSAS Sample DB Backup** using [link.](https://github.com/microsoft/sql-server-samples/releases/download/adventureworks-analysis-services/adventure-works-multidimensional-model-full-database-backup.zip)
+1. Log in to the compute instance and download the **SSAS Sample DB Backup** using [link.](https://github.com/microsoft/sql-server-samples/releases/download/adventureworks-analysis-services/adventure-works-multidimensional-model-full-database-backup.zip)
 
     **File Name: adventure-works-multidimensional-model-full-database-backup.zip**
 
